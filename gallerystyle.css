@@ -1,0 +1,85 @@
+.header-text {
+    text-align: center;
+    color: rgb(105, 46, 105);
+}
+
+nav {
+    background-color: rgb(251, 235, 255);
+}
+
+a:visited {
+    color: rgb(187, 109, 202);
+}
+
+p {
+    font-size: 20px;
+}
+
+#first-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(105, 46, 105);
+    background-color: rgb(245, 196, 255);
+}
+
+#first-container img {
+    width: 400px;
+}
+
+
+#second-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    color: rgb(46, 50, 105);
+    background-color: rgb(196, 210, 255);
+}
+
+#second-container img {
+    width: 800px;
+}
+
+#third-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    color: rgb(105, 46, 69);
+    background-color: rgb(255, 196, 211);
+}
+
+#third-container img {
+    width: 400px;
+}
+
+#first-img-in-first-cont:hover {
+    width: 105%;
+}
+
+#second-img-in-first-cont:hover {
+    width: 105%;
+}
+
+
+#third-img-in-first-cont:hover {
+    width: 105%;
+}
+
+#img-in-second-cont:hover {
+    width: 105%;
+}
+
+#first-img-in-third-cont:hover {
+    width: 40%;
+}
+
+#second-img-in-third-cont:hover {
+    width: 40%;
+}
+
+#third-img-in-third-cont:hover {
+    width: 40%;
+}
